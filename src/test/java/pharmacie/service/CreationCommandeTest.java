@@ -46,4 +46,7 @@ class CreationCommandeTest {
         assertEquals(client.getAdresse(), commande.getAdresseLivraison(),
             "On doit recopier l'adresse du client dans l'adresse de livraison");
     }
+
+
+    
 }
